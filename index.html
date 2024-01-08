@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 80px rgba(0, 0, 0, 0.564);
+        padding: 0.3em;
+        margin-bottom: 1em;
+      }
+    </style>
+    <style>
+      .button {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #ffffff;
+        background-color: #26548d;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #22457a;
+      }
+
+      .button:hover {
+        background-color: #22457a;
+      }
+
+      .button:active {
+        background-color: #152a94;
+        box-shadow: 0 5px #152a94;
+        transform: translateY(2px);
+      }
+    </style>
+    <style>
+      .button2 {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #df9edc;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #df92db;
+      }
+
+      .button2:hover {
+        background-color: #df92db;
+      }
+
+      .button2:active {
+        background-color: #974394;
+        box-shadow: 0 5px #974394;
+        transform: translateY(2px);
+      }
+    </style>
+    <title>blur()</title>
+    <style>
+      body::before {
+        content: " ";
+        z-index: -1;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: url("1679154169_bogatyr-club-p-fon-lepestki-sakuri-foni-krasivo-1.jpg");
+        background-size: cover;
+        filter: blur(10px);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="W (3).svg" alt="Bootstrap" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <img
+            class="rounded-img"
+            src="aniyuki-anime-girl-avatar-32.jpg "
+            alt="изображение"
+          />
+          <h1 class="fw-light">Website</h1>
+          <p class="lead text-muted">Первый сайт! Должно быть красиво</p>
+          <a class="button" href="https://www.twitch.tv" target="_blank">
+            twitch
+          </a>
+          <a class="button2" href="https://www.youtube.com/" target="-blank">
+            youtube
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
